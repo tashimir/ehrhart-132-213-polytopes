@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the dataset version used and the associated article. A formatted dataset citation appears in README.md."
+title: "Exact refined Eulerian coordinates for (132,213)-avoiding permutation polytopes"
+type: dataset
+authors:
+  - family-names: "de Castro"
+    given-names: "Pedro Machado Manhães"
+    orcid: "https://orcid.org/0000-0002-9470-7458"
+version: "1.0.0"
+date-released: 2026-09-05
+repository-artifact: "https://github.com/tashimir/ehrhart-132-213-polytopes"
+url: "https://github.com/tashimir/ehrhart-132-213-polytopes/releases/tag/v1.0.0"
+abstract: "A single CSV containing all 500500 exact integers alpha_scaled = d! a_{d,j} for 1 <= d <= 1000 and 0 <= j < d, accompanying the finite certificate for the repaired-tail inequalities."
+keywords:
+  - "Ehrhart polynomial"
+  - "pattern avoidance"
+  - "refined Eulerian polynomial"
+  - "real-rootedness"
+preferred-citation:
+  type: unpublished
+  title: "Ehrhart h-star-Polynomials of (132,213)-Avoiding Permutation Polytopes: A Repair Cone and Eventual Real-Rootedness"
+  authors:
+    - family-names: "de Castro"
+      given-names: "Pedro Machado Manhães"
+      orcid: "https://orcid.org/0000-0002-9470-7458"
+  year: 2026
