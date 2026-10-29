@@ -1,8 +1,10 @@
 # Exact refined Eulerian coordinates
 
-Data accompanying Pedro Machado Manhães de Castro, *Ehrhart h-star-Polynomials of (132,213)-Avoiding Permutation Polytopes: A Repair Cone and Eventual Real-Rootedness* (2026).
+Data accompanying Pedro Machado Manhães de Castro, *On the real-rootedness of Ehrhart $h^*$-polynomials of $(132,213)$-avoiding permutahedra* (2026), [arXiv:2609.06096v2](https://arxiv.org/abs/2609.06096v2).
 
-The dataset contains the exact scaled refined Eulerian coordinates used in the article's finite certificate for every integer $1\le d\le1000$.
+The dataset contains the exact scaled refined Eulerian coordinates used in the article's finite certificate for every integer $1\le d\le1000$. The data retain version **1.0.0**, released on 5 September 2026; the article's **v2** is a separate manuscript version.
+
+The arXiv replacement was received on 28 October 2026, with announcement scheduled for 30 October 2026 at 00:00 UTC. The references below follow the submitted v2 manuscript.
 
 ## Download
 
@@ -36,17 +38,19 @@ For a fixed $d$, select its $d$ records and retain the order $j=0,\ldots,d-1$. F
 
 ## Mathematical definitions and verification
 
-Start with **Section 7, “An exact finite certificate”**. It defines the CSV, derives the integer recurrence, and explains the exact sign test. Equation (33) reconstructs each scaled coordinate, and **Algorithm 1, “Verification of the exact finite certificate”**, gives the complete reconstruction and verification procedure.
+Start with **Section 7, “An exact finite certificate”**. It defines the CSV, derives the integer recurrence, and explains the exact sign test. Equation (26) reconstructs each scaled coordinate, and **Algorithm 1, “Verification of the exact finite certificate”**, gives the complete reconstruction and verification procedure.
 
 The preceding sections supply the mathematical foundations:
 
 | Article location | What it explains |
 | :--- | :--- |
-| Section 5, “The refined Eulerian expansion” | The basis polynomials and the coordinates $a_{d,j}$; the connected-block formula in equation (22) and the coordinate formula in equation (25) |
-| Section 6, “The sharp repair cone” | The repaired-tail inequalities at $c_*=2-\sqrt{3}$ and their connection to real-rootedness, particularly Corollary 6.2 |
+| Section 5, “The refined Eulerian expansion” | The basis polynomials and the coordinates $a_{d,j}$; the connected-block formula in equation (15) and the coordinate formula in equation (18) |
+| Section 6, “A compatible cone of adjacent differences” | The weighted-tail inequalities at $c_*=2-\sqrt{3}$ in equation (24) and their connection to real-rootedness, particularly Corollary 16 |
 | Section 7, “An exact finite certificate” | Reconstruction of all 500,500 entries and exact verification of the 498,500 strict tail inequalities for $4\le d\le1000$, together with the three initial cases |
 
-These references apply to the article accompanying version 1.0.0 of the data. Section titles identify the relevant material if numbering changes in a later article version.
+In [arXiv v1](https://arxiv.org/abs/2609.06096v1), the corresponding equation numbers were (22), (25), and (33), and the real-rootedness criterion was Corollary 6.2 in Section 6, “The sharp repair cone”. The [documentation at the data release tag](https://github.com/tashimir/ehrhart-132-213-polytopes/tree/v1.0.0) preserves those historical references.
+
+The finite certificate supports Theorem 3 for $3\le d\le1000$, with $H_1(t)=H_2(t)=1$. The separate analytic result is Theorem 4 (proved as Theorem 25), with threshold $d\ge2^{62}$, improved from $2^{72}$ in arXiv v1; the range $1001\le d<2^{62}$ remains open.
 
 ## File integrity
 

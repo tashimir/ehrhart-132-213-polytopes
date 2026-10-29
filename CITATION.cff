@@ -18,9 +18,12 @@ keywords:
   - "real-rootedness"
 preferred-citation:
   type: unpublished
-  title: "Ehrhart h-star-Polynomials of (132,213)-Avoiding Permutation Polytopes: A Repair Cone and Eventual Real-Rootedness"
+  title: "On the real-rootedness of Ehrhart h*-polynomials of (132,213)-avoiding permutahedra"
   authors:
     - family-names: "de Castro"
       given-names: "Pedro Machado Manhães"
       orcid: "https://orcid.org/0000-0002-9470-7458"
   year: 2026
+  version: "2"
+  doi: "10.48550/arXiv.2609.06096"
+  url: "https://arxiv.org/abs/2609.06096v2"
